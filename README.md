@@ -63,17 +63,17 @@ Este projeto React consiste em um formulário interativo que permite o cadastro 
 ## **Componentes**
 ### **Componente Formulário**
 
-    Localização: App.js
-    Este é o componente principal responsável por renderizar o formulário e gerenciar o estado dinâmico das seleções. Ele utiliza o hook useState para controlar os estados de estado (região) e cidade.
+Localização: App.js
+Este é o componente principal responsável por renderizar o formulário e gerenciar o estado dinâmico das seleções. Ele utiliza o hook useState para controlar os estados de estado (região) e cidade.
 
-    Estados
-        estado: Gerencia o estado selecionado.
-        cidade: Gerencia a cidade selecionada.
-    Funções
-        handleEstadoChange: Atualiza o estado selecionado e reseta a cidade ao mudar o estado.
-        Renderiza as opções dinâmicas de curso, estado e cidade.
-    Estrutura
-        Nome: Campo de entrada simples.
-        Curso: Dropdown com cursos estáticos.
-        Estado: Dropdown com estados brasileiros.
-        Cidade: Dropdown com cidades dinâmicas baseadas no estado selecionado.
+Estados
+    estado: Gerencia o estado selecionado.
+    cidade: Gerencia a cidade selecionada.
+Funções
+    handleEstadoChange: Atualiza o estado selecionado e reseta a cidade ao mudar o estado.
+    Renderiza as opções dinâmicas de curso, estado e cidade.
+Estrutura
+    Nome: Campo de entrada simples.
+    Curso: Dropdown com cursos estáticos.
+    Estado: Dropdown com estados brasileiros.
+    Cidade: Dropdown com cidades dinâmicas baseadas no estado selecionado.
