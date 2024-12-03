@@ -11,3 +11,70 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Estilo geral do formulário */
+form {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid #1d68b2;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Título do formulário */
+form h2 {
+  text-align: center;
+  background-color: #1d68b2;
+  color: white;
+  margin: -20px -20px 20px -20px;
+  padding: 10px 0;
+  border-radius: 10px 10px 0 0;
+  font-size: 18px;
+}
+
+/* Estilização dos campos de entrada */
+form div {
+  margin-bottom: 15px;
+}
+
+form label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+form input, form select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Botões */
+form button {
+  width: 48%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+form .btn-voltar {
+  background-color: #ffcc00;
+  color: black;
+  margin-right: 4%;
+}
+
+form .btn-gravar {
+  background-color: #4caf50;
+  color: white;
+}
+
+form button:hover {
+  opacity: 0.9;
+}
