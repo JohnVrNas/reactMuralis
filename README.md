@@ -22,23 +22,23 @@ Este projeto React consiste em um formulário interativo que permite o cadastro 
 
 ## **Configuração do Ambiente**
 
-### **1. Clone este repositório:**
+#### **1. Clone este repositório:**
    
 - git clone https://github.com/seu-usuario/react-formulario.git
 
-### **2. Instale as dependências:**
+#### **2. Instale as dependências:**
 
     npm install
     # ou
     yarn install
 
-### **3. Inicie o projeto npm start:**
+#### **3. Inicie o projeto npm start:**
 
     npm start
     # ou
     yarn start
 
-### **4. Acesse o navegador:**
+#### **4. Acesse o navegador:**
 
     http://localhost:3000
 
@@ -61,19 +61,44 @@ Este projeto React consiste em um formulário interativo que permite o cadastro 
 
 
 ## **Componentes**
-### **Componente Formulário**
+#### **Componente Formulário**
 
 Localização: App.js
 Este é o componente principal responsável por renderizar o formulário e gerenciar o estado dinâmico das seleções. Ele utiliza o hook useState para controlar os estados de estado (região) e cidade.
 
-Estados
-    estado: Gerencia o estado selecionado.
-    cidade: Gerencia a cidade selecionada.
-Funções
-    handleEstadoChange: Atualiza o estado selecionado e reseta a cidade ao mudar o estado.
-    Renderiza as opções dinâmicas de curso, estado e cidade.
-Estrutura
-    Nome: Campo de entrada simples.
-    Curso: Dropdown com cursos estáticos.
-    Estado: Dropdown com estados brasileiros.
-    Cidade: Dropdown com cidades dinâmicas baseadas no estado selecionado.
+#### **Estados**
+
+- estado: Gerencia o estado selecionado.
+- cidade: Gerencia a cidade selecionada.
+
+#### **Funções**
+
+- handleEstadoChange: Atualiza o estado selecionado e reseta a cidade ao mudar o estado.
+- Renderiza as opções dinâmicas de curso, estado e cidade.
+
+#### **Estrutura**
+
+- **Nome:** Campo de entrada simples.
+- **Curso:** Dropdown com cursos estáticos.
+- **Estado:** Dropdown com estados brasileiros.
+- **Cidade:** Dropdown com cidades dinâmicas baseadas no estado selecionado.
+
+## **Scripts**
+Os scripts definidos em package.json incluem:
+
+##### **Iniciar o servidor de desenvolvimento:**
+      npm start
+      
+##### **Rodar testes:**
+      npm test
+      
+##### **Iniciar o servidor de desenvolvimento:**
+      npm run build
+
+## **Melhorias Futuras**
+
+- Adicionar validação de campos (e.g., nome obrigatório).
+- Implementar integração com uma API para preencher estados e cidades automaticamente.
+- Melhorar o design com uma biblioteca de UI como Material-UI ou TailwindCSS.
+- Contruir um contexto para aplicar o formulário.
+- Adicionar suporte para múltiplos idiomas.
