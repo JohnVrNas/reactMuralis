@@ -22,7 +22,7 @@ Este projeto React consiste em um formulário interativo que permite o cadastro 
 
 ## **Configuração do Ambiente**
 
-# **1. Clone este repositório:**
+### **1. Clone este repositório:**
    
 - git clone https://github.com/seu-usuario/react-formulario.git
 
