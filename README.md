@@ -21,19 +21,23 @@ Este projeto React consiste em um formulário interativo que permite o cadastro 
 ---
 
 ## **Configuração do Ambiente**
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/react-formulario.git
 
-2. Instale as dependências
+# **1. Clone este repositório:**
+   
+- git clone https://github.com/seu-usuario/react-formulario.git
+
+# **2. Instale as dependências:**
+
     npm install
     # ou
     yarn install
 
-3. Inicie o projeto
+# **3. Inicie o projeto npm start:**
+
     npm start
     # ou
     yarn start
 
-4. Acesse o navegador
+# **4. Acesse o navegador:**
+
     http://localhost:3000
