@@ -45,18 +45,19 @@ Este projeto React consiste em um formulário interativo que permite o cadastro 
 
 ## **Estrutura do Projeto**
 
-react-formulario/
-├── public/
-│   ├── index.html        # Arquivo HTML principal
-│   └── favicon.ico       # Ícone do projeto
-├── src/
-│   ├── App.css           # Estilos do componente principal
-│   ├── App.js            # Componente principal do formulário
-│   ├── App.test.js       # Testes para o App.js
-│   ├── index.css         # Estilos globais
-│   ├── index.js          # Ponto de entrada do React
-│   ├── reportWebVitals.js# Métricas de performance (opcional)
-│   ├── setupTests.js     # Configuração de testes
-├── package.json          # Configurações do projeto e dependências
-└── README.md             # Documentação do projeto
+    react-formulario/
+    ├── public/
+    │   ├── index.html        # Arquivo HTML principal
+    │   └── favicon.ico       # Ícone do projeto
+    ├── src/
+    │   ├── App.css           # Estilos do componente principal
+    │   ├── App.js            # Componente principal do formulário
+    │   ├── App.test.js       # Testes para o App.js
+    │   ├── index.css         # Estilos globais
+    │   ├── index.js          # Ponto de entrada do React
+    │   ├── reportWebVitals.js# Métricas de performance (opcional)
+    │   ├── setupTests.js     # Configuração de testes
+    ├── package.json          # Configurações do projeto e dependências
+    └── README.md             # Documentação do projeto
+
 
